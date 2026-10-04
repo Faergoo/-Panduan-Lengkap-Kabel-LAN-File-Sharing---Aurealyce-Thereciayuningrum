@@ -1,0 +1,6 @@
+.nav{position:sticky;top:0;z-index:50;transition:.3s}.nav.scrolled{background:rgba(255,247,251,.72);backdrop-filter:blur(16px);box-shadow:0 4px 24px rgba(131,24,67,.08)}
+.nav-in{width:min(1280px,100%);margin:auto;padding:12px clamp(16px,3vw,28px);display:flex;align-items:center;justify-content:space-between;position:relative}
+.brand{display:flex;align-items:center;gap:8px;font-weight:800;color:var(--d);text-decoration:none}
+.links{display:flex;gap:4px}.links a{padding:8px 12px;border-radius:10px;color:var(--d);text-decoration:none;font-size:.9rem;font-weight:500;transition:.2s}
+.links a:hover{background:rgba(236,72,153,.1)}.links a.on{background:var(--g);color:#fff}
+.burger{display:none;background:none;border:0;color:var(--d);min-width:44px;min-height:44px;cursor:pointer}

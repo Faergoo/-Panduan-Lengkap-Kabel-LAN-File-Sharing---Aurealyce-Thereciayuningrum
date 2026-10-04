@@ -1,0 +1,15 @@
+:root{--p:#EC4899;--s:#F9A8D4;--d:#831843;--bg:#FFF7FB;--a:#A855F7;--cy:#22d3ee;--g:linear-gradient(135deg,#EC4899,#A855F7)}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:#3b0a24;overflow-x:hidden;line-height:1.6}
+h1{font-size:clamp(2rem,6vw,3.8rem);line-height:1.1;color:var(--d)}h1 em{font-style:normal;background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:clamp(1.5rem,4vw,2.4rem);color:var(--d);margin-bottom:1.5rem}
+.wrap{width:min(1180px,100%);margin:auto;padding:0 clamp(16px,4vw,32px)}.sec{padding:clamp(48px,8vw,96px) 0;position:relative}
+.kicker{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--p);background:rgba(236,72,153,.1);padding:4px 12px;border-radius:99px;margin-bottom:12px}
+.bg-deco{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.blob{position:absolute;border-radius:50%;filter:blur(90px);opacity:.45}.b1{width:420px;height:420px;background:var(--s);top:-100px;left:-100px}.b2{width:380px;height:380px;background:#d8b4fe;right:-100px;bottom:0}
+.bg-deco .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(236,72,153,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(236,72,153,.06) 1px,transparent 1px);background-size:44px 44px}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 22px;border-radius:14px;font:600 .95rem inherit;border:0;cursor:pointer;text-decoration:none;transition:.25s}
+.btn.primary{background:var(--g);color:#fff;box-shadow:0 8px 24px rgba(236,72,153,.35)}.btn.ghost{background:rgba(255,255,255,.7);color:var(--d);border:1.5px solid var(--s)}
+.btn:hover:not(:disabled){transform:translateY(-2px)}.btn:disabled{opacity:.45;cursor:not-allowed}
+:focus-visible{outline:3px solid var(--a);outline-offset:3px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px;align-items:center}
