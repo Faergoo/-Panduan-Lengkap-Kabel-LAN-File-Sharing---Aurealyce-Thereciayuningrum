@@ -1,7 +1,7 @@
 export const nav = [
   ["pengertian","Pengertian"],["alat","Alat & Bahan"],["crimping","Crimping"],
   ["koneksi","Koneksi 2 Laptop"],["ping","Ping Test"],["sharing","Sharing File"],["media","Media"]];
-export const profile = { name:"Aurealyce T", status:"Mahasiswa", major:"Jaringan Komputer", school:"POLITEKNIK NEGERI SRIWIJAYA", cls:"Dr. Ali Firdaus, S.Kom., M.Kom.", id:"MABA 2026" };
+export const profile = { name:"Aurealyce T", status:"Mahasiswa", major:"Jaringan Komputer", school:"POLITEKNIK NEGERI SRIWIJAYA", cls:"Dr. Ali Firdaus, S.Kom., M.Kom.", id:"Aurealyce T" };
 export const intro = [
   ["LAN","Local Area Network adalah jaringan komputer yang mencakup area terbatas seperti ruang kelas, laboratorium, atau gedung."],
   ["Ethernet","Standar teknologi jaringan kabel yang mengatur cara perangkat mengirim data dalam bentuk frame."],
@@ -39,7 +39,7 @@ export const pingLines = ["Pinging 192.168.1.2 with 32 bytes of data:","Reply fr
 export const shareSteps = ["Aktifkan Network Discovery.","Aktifkan File and Printer Sharing.","Klik kanan folder, pilih Share.","Atur permission (Read atau Read/Write).","Akses dari laptop lain lewat \\\\192.168.1.1"];
 export const media = {
   videos: [
-    { title: "Video Tutorial 1", url: "https://www.youtube.com/watch?v=GANTI_LINK_1" },
+    { title: "Video Tutorial 1", url: "https://youtu.be/sByEW9ktCNQ?si=dL-2DdtNqqb5xDHE" },
     { title: "Video Tutorial 2", url: "https://www.youtube.com/watch?v=GANTI_LINK_2" }
   ]
 };
