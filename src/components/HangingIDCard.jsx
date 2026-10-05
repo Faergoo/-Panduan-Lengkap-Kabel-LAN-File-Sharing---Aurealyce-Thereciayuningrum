@@ -7,7 +7,7 @@ const fotos = import.meta.glob("../assets/*.{jpg,jpeg,png,webp}", { eager: true,
 const foto = Object.values(fotos)[0];
 
 const qr = Array.from({length:49},(_,i)=>(i*7+(i>>2)*3)%5<2);
-const txt = "Teknik Informatika dan Multimedia • POLITEKNIK NEGERI SRIWIJAYA • 2026   ".repeat(8);
+const txt = "Teknologi Informatika dan Multimedia • POLITEKNIK NEGERI SRIWIJAYA • 2026   ".repeat(8);
 
 export default function HangingIDCard() {
   const [back,setBack]=useState(false); const moved=useRef(false);
