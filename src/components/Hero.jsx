@@ -3,7 +3,7 @@ import { BookOpen, PlayCircle, School, Code2, FileText, CalendarDays } from "luc
 import HangingIDCard from "./HangingIDCard";
 const go=id=>()=>document.getElementById(id)?.scrollIntoView({behavior:"smooth"});
 export default function Hero() {
-  const meta=[[School,"Politeknik Negeri Sriwijaya"],[Code2,"Jurusan Teknologi Komputer dan Multimedia"],[FileText,"Modul Praktikum"]];
+  const meta=[[School,"Politeknik Negeri Sriwijaya"],[Code2,"Jurusan Teknik komputer"],[FileText,"Modul Praktikum"]];
   return (
     <section id="top" className="hero">
       <svg className="hero-net" viewBox="0 0 600 600" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
