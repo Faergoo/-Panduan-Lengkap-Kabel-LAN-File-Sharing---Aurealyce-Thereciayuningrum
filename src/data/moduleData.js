@@ -40,6 +40,6 @@ export const shareSteps = ["Aktifkan Network Discovery.","Aktifkan File and Prin
 export const media = {
   videos: [
     { title: "Video Tutorial 1", url: "https://youtu.be/sByEW9ktCNQ?si=dL-2DdtNqqb5xDHE" },
-    { title: "Video Tutorial 2", url: "https://www.youtube.com/watch?v=GANTI_LINK_2" }
+    { title: "Video Tutorial 2", url: "https://youtu.be/UWOnB139Khg?si=kikrUaIqfqrgI1hM" }
   ]
 };
